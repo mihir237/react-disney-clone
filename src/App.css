@@ -1,39 +1,39 @@
-.App {
-  text-align: center;
+/* For the carsoul button */
+
+.slick-prev,
+.slick-next {
+  z-index: 100 !important;
+}
+.slick-prev {
+  left: 0px;
+}
+.slick-next {
+  right: 17px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 40px;
+  line-height: 1;
+  opacity: 0.75;
+  color: rgba(255, 255, 255, 0.463);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li button:before {
+    color: #ffffff5e;
+
+}
+.slick-dots li.slick-active button:before {
+  color: #ffffffca;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.viewers > div {
+    box-shadow: rgb(0 0 0/69%) 0px 26px 30px -10px, rgb(0 0 0/73%) 0px 16px 10px -10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.details-image-shadow{
+  z-index:10;
+  box-shadow: 100px 30px 75px black;
 }

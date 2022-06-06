@@ -6,6 +6,7 @@ import db from '../firebase'
 
 function Home() {
 
+  //this is test
   useEffect(()=>{
     // db.collection("movies").onSnapshot((snapshot)=>{
     //   let tempMovies  = snapshot.docs.map((doc)=>{
